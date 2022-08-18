@@ -9,12 +9,6 @@
 12.5em  200px 
 */
 
-:root {
-  --color-primary:#FF66F5;
-  --color-secondary:#0e0a48;
-  --color-tertiary:#3843cd;
-}
-
 *,
 *::after,
 *::before {
@@ -27,6 +21,18 @@ html {
   box-sizing: inherit;
   font-size: 62.5%;
   font-family: 'Source Code Pro', monospace;
+}
+
+section{
+  border-bottom: 0.6em solid #71a7ff;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.section-heading{
+  font-size: 5rem;
+  margin: 5rem auto;
+  text-align: center;
 }
 
 @media only screen and (min-width: 125em) {
@@ -50,6 +56,9 @@ html {
 @media only screen and (max-width: 25em) {
   html {
     font-size: 30%;
+  }
+  .section-heading{
+    padding: 0 1.56rem;
   }
 }
 
