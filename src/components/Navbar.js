@@ -1,6 +1,7 @@
 import React from 'react'
 import "./css/Navbar.css";
 import logo from "../assets/images/logo-removebg.png";
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -10,10 +11,10 @@ export default function Navbar() {
             <h1>academy_4u</h1>
         </div>
         <div className="sections">
-          <a className='section-name' href='/'>Home</a>
-          <a className='section-name' href='/'>About</a>
-          <a className='section-name' href='/'>Courses</a>
-          <a className='section-name' href='/'>Testimonials</a>
+          <Link className='section-name' to='/'>Home</Link>
+          <Link className='section-name' to='/about'>About</Link>
+          <Link className='section-name' to='/'>Courses</Link>
+          <Link className='section-name' to='/'>Testimonials</Link>
         </div>
     </header>
   )

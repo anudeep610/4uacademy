@@ -1,0 +1,14 @@
+.about{
+    margin-top: 15rem;
+}
+
+.about .about-para{
+    font-size: 2rem;
+    padding:4rem;
+}
+
+@media screen and (max-width:30em){
+    .about{
+        margin-top: 25em;
+    }
+}
