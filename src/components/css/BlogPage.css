@@ -1,0 +1,56 @@
+.fullBlog {
+    min-height: auto;
+    padding: 15rem 5rem;
+}
+
+.blog-image{
+    padding: 5rem 0;
+    margin:0 10%;
+    width: 80%;
+}
+
+.blog-heading {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+}
+
+.blog-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.blog-author {
+    font-size: 1.5rem;
+    letter-spacing: .5rem;
+    padding-bottom: 3rem;
+    font-style: italic;
+    color: #9e9f9f;
+}
+
+.blog-date{
+    font-size: 1.25rem;
+}
+
+hr {
+    border: 0;
+    border-bottom: 5px solid rgba(255, 166, 0, 0.582);
+    margin-bottom: 3rem;
+    width: 0;
+    animation: separator-width 1s ease-out forwards;
+}
+
+.blog-text{
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+@keyframes separator-width {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
