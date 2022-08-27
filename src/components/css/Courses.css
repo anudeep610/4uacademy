@@ -1,0 +1,132 @@
+.carousel-course-card{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:31.25em){
+    .carousel-course-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.carousel-course-card-cell {
+    /* flex-basis: 35rem; */
+    height: auto;
+    padding-bottom: 3rem;
+    margin: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow:
+    5px 5px 5px rgba(0,0,0,.1);
+    text-align: center;
+}
+
+.card-cell-thumbnail {
+    width: 100%;
+    height: auto;
+}
+
+.card-cell-thumbnail img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card-cell-content {
+    padding: 2rem 3rem 0 3rem;
+    flex-grow: 1;
+}
+
+.card-cell-text {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card-cell-text h2 {
+    margin: 0 auto 1rem auto;
+    font-size: 2.4rem;
+}
+
+.card-cell-text h3 {
+    margin: 0 auto 3rem auto;
+    color: orange;
+    font-size: 1.6rem;
+}
+
+.card-cell-info-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-cell-info {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.card-cell-info:last-of-type{
+    margin:0;
+}
+
+.card-cell-info h4 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.card-cell-info i {
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    color: #ff4e00
+}
+
+.card-cell-button {
+    width: 18rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.card-cell-button a {
+    position: relative;
+    padding: 1rem 0.6rem;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff4e00;
+    transition: all .2s;
+}
+
+.card-cell-button a::after {
+    position: absolute;
+    content: ">";
+    margin-left: -1em;
+    top: -3px;
+    right: 5rem;
+    bottom: 0px;
+    opacity: 0;
+    transition: all .2s ease;
+}
+
+.card-cell-button a:hover {
+    padding: 1rem 2.4rem 1rem .6rem;
+}
+
+.card-cell-button a:hover::after {
+    right: 7px;
+    opacity: 1;
+}
