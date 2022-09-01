@@ -1,8 +1,6 @@
 .hero{
-    background-image: linear-gradient(white,white,rgba(255, 255, 255, 0.929),rgba(255, 255, 255, 0.7)),url("../../assets/images/25331.jpg");
-    background-size: 100%;
-    display: flex;
-    align-items: center;
+    background-color: #e9fbfd;
+    padding-top: 9rem;
 }
 
 .hero .main-heading{

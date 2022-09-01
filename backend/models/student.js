@@ -24,6 +24,10 @@ const studentSchema=new mongoose.Schema({
     yearOfStudy:{
         type:String,
         required:true
+    },
+    course:{
+        type:String,
+        required:true
     }
 },{timestamps:true});
 

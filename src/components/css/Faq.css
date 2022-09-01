@@ -1,6 +1,7 @@
 .faq{
     padding: 5rem 0;
     min-height: auto;
+    background-color: rgba(243,243,255);
 }
 .faq-content {
     margin: 0 20%;

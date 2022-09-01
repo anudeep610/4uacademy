@@ -10,9 +10,9 @@ export default function Home() {
     return (
     <>
         <Hero/>
-        <Blog/>
         <Courses/>
         <Reviews/>
+        <Blog/>
         <Community/>
         <Faq/>
     </>

@@ -19,7 +19,7 @@ export default function Blog() {
 				</div>
 				<div class="card-bottom flex-row">
                     <p class="author">- By {blog.author}</p>
-					<Link to={`/blog/${i}`} class="button">Read More</Link>
+					<Link to={blog.link} class="button">Read More</Link>
 				</div>
             </div>
             })

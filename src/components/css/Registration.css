@@ -1,0 +1,80 @@
+.registration-page{
+    min-height: auto;
+    padding: 10rem 5rem;
+}
+
+.registration-page-content{
+    padding: 1rem 0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.registration-page-content .registration-form{
+    padding: 2rem 3rem;
+    font-size:1.7rem;
+    width: 40%;
+    padding: 0 0 0 8rem;
+    border-left: .15rem solid black;
+}
+
+.registration-page-content .image-container{
+    padding: 0 8rem 0 0;
+    width: 70%;
+}
+
+.registration-page-content .image-container img{
+    width: 100%;
+}
+
+.registration-page-content .registration-form Form{
+    width: 100%;
+}
+
+.registration-page-content .registration-form Form .input{
+    padding: 1.5rem 1rem;
+    font-size: 1.5rem;
+} 
+
+.registration-page-content .registration-form Form .btn-submit{
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+}
+
+.result-text{
+    padding:2.5rem 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width:62.5em){
+    .registration-page-content {
+        flex-direction: column;
+    }
+
+    .registration-page-content .image-container{
+        padding: 0;
+        width: 75%;
+    }
+
+    .registration-page-content .registration-form{
+        width: 80%;
+        margin: 0 10%;
+        border-left: none;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:30em) {
+    .registration-page{
+        padding: 15rem 5rem;
+    }    
+    .registration-page-content .registration-form{
+        width: 100%;
+    }
+}

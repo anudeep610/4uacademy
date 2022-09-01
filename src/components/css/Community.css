@@ -28,10 +28,11 @@
 
 .community .community-image{
     align-self: center;
+    text-align: center;
 }
 
 .community .community-image img{
-    width:100%;
+    width:80%;
 }
 
 .community .community-button{

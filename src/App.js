@@ -1,10 +1,13 @@
 import './App.css';
 import { Routes, Route} from "react-router-dom";
 import Navbar from './components/Navbar';
-import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
-import BlogPage from './components/BlogPage';
+import BlogOne from "./components/Blog1";
+import Registration from './components/Registration';
+import Java from './components/Java';
+import Footer from "./components/Footer";
+import View from "./components/view";
 
 function App() {
   return (
@@ -13,7 +16,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
-        <Route path="/blog/:index" element={<BlogPage/>}/>
+        <Route path="/blog1" element={<BlogOne/>}/>
+        <Route path="/registration" element={<Registration/>}/>
+        <Route path="/course/java" element={<Java/>}/>
+        <Route path="/efkocefo/efvee/re" element={<View/>}/>
       </Routes>
       <Footer/>
     </div>
