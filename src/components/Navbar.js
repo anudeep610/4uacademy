@@ -8,7 +8,7 @@ export default function Navbar() {
     <header className='header'>
         <div className="branding">
             <img src={logo} alt="logo" srcset="" />
-            <h1>academy_4u</h1>
+            <h1>4U Academy</h1>
         </div>
         <div className="sections">
           <Link className='section-name' to='/'>Home</Link>

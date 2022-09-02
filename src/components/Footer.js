@@ -1,6 +1,6 @@
 import React from 'react'
 import "./css/Footer.css";
-import logo from "../assets/images/logo-removebg.png";
+import logo from "../assets/images/logo_white.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faCopyright, faRocket } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF,faInstagram, faYoutube, faTelegram } from '@fortawesome/free-brands-svg-icons';

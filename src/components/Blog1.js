@@ -1,6 +1,6 @@
 import React from 'react'
 import "./css/BlogPage.css";
-import photo from "../assets/images/nikhil.jpg"
+import photo from "../assets/images/akash.jpeg"
 
 export default function Blog1() {
   return (
@@ -13,7 +13,7 @@ export default function Blog1() {
         </div>
         <div className="blog-details">
           <div className="blog-details-sub-card">
-            <p className="blog-author">Nikhil Raj</p>
+            <p className="blog-author">Akash Binu</p>
             <p className="blog-date">Saturday, Sep 03, 2022 | 5 min</p>
           </div>
         </div>

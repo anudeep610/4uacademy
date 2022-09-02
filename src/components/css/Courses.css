@@ -1,132 +1,84 @@
-.carousel-course-card{
+
+.course-cards-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-}
-
-@media screen and (max-width:31.25em){
-    .carousel-course-card{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-.carousel-course-card-cell {
-    /* flex-basis: 35rem; */
-    height: auto;
-    padding-bottom: 3rem;
-    margin: 5rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    background: #fff;
-    border-radius: 1rem;
-    box-shadow:
-    5px 5px 5px rgba(0,0,0,.1);
-    text-align: center;
+    padding: 0 0 10rem 0;
+    /* background-color: #e9fbfd; */
 }
 
-.card-cell-thumbnail {
-    width: 100%;
-    height: auto;
+.course-cards-container .course-card{
+    flex:0 1 42rem;
+    margin: 4rem;
+
+    background-color: #fff;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 1rem rgb(0 0 0 / 20%);
 }
 
-.card-cell-thumbnail img {
-    width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    border-radius: 1rem 1rem 0 0;
-}
-
-.card-cell-content {
-    padding: 2rem 3rem 0 3rem;
-    flex-grow: 1;
-}
-
-.card-cell-text {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.card-cell-text h2 {
-    margin: 0 auto 1rem auto;
-    font-size: 2.4rem;
-}
-
-.card-cell-text h3 {
-    margin: 0 auto 3rem auto;
-    color: orange;
-    font-size: 1.6rem;
-}
-
-.card-cell-info-container {
-    width: 90%;
-    margin: auto;
+.course-cards-container .course-card .course-card-header{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    padding: 3rem ;
+    justify-content: space-between;
+    font-size: 5rem;
+    align-items: center;
+    /* background-image: linear-gradient(94.33deg, rgb(3, 89, 175) -26.26%, rgb(7, 118, 221) 128.29%); */
+    background-color: #DD0004;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    color: white;
 }
 
-.card-cell-info {
-    margin-bottom: 3rem;
+.course-cards-container .course-card .course-card-header .course-card-heading{
+    font-size: 3rem;
+}
+
+.course-cards-container .course-card .course-card-body{
+    padding: 4rem 3rem;
+}
+
+.course-cards-container .course-card .course-requirments{
     display: flex;
-    flex-direction: row;
-    text-align: left;
+    align-items: center;
 }
 
-.card-cell-info:last-of-type{
-    margin:0;
+.course-cards-container .course-card .course-requirments .course-requirments-icon{
+    padding: 0 1rem 0 0;
+    font-size: 2rem;
 }
 
-.card-cell-info h4 {
-    margin: 0;
+.course-cards-container .course-card .course-requirments .course-requirements-sentence{
     font-size: 1.6rem;
+    color: #61738e;
+    margin: 0;
+}
+
+.course-cards-container .course-card .course-card-body .course-outcomes {
+    padding: 4rem 0 0 0;
+}
+
+.course-cards-container .course-card .course-card-body .course-outcomes .course-outcomes-heading{
+    font-size: 2.2rem;
+}
+
+.course-cards-container .course-card .course-card-body .course-outcomes .course-outcomes-content{
+    font-size: 1.65rem;
+    color: #61738e;
+    font-weight: 400;
+}
+
+.course-cards-container .course-card .course-card-body .course-learn-more {
+    padding-top: 2rem;
+}
+
+.course-cards-container .course-card .course-card-body .course-learn-more .course-link{
+    font-size: 2rem;
+    color: rgb(0, 128, 255);
+    text-decoration: none;
     font-weight: 500;
 }
 
-.card-cell-info i {
-    font-size: 2.5rem;
-    margin-right: 2rem;
-    color: #ff4e00
-}
-
-.card-cell-button {
-    width: 18rem;
-    height: 11rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-
-.card-cell-button a {
-    position: relative;
-    padding: 1rem 0.6rem;
-    letter-spacing: 3px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #ff4e00;
-    transition: all .2s;
-}
-
-.card-cell-button a::after {
-    position: absolute;
-    content: ">";
-    margin-left: -1em;
-    top: -3px;
-    right: 5rem;
-    bottom: 0px;
-    opacity: 0;
-    transition: all .2s ease;
-}
-
-.card-cell-button a:hover {
-    padding: 1rem 2.4rem 1rem .6rem;
-}
-
-.card-cell-button a:hover::after {
-    right: 7px;
-    opacity: 1;
+.purple{
+    background-color: #6D14C4  !important;
 }
