@@ -28,7 +28,7 @@
 
 .hero .hero-container .hero-content .hero-heading {
     font-size: 4.5rem;
-    padding: 2rem 0;
+    padding: 4rem 0;
     font-weight: 700;
 }
 
@@ -73,12 +73,12 @@
 }
 
 .btn {
-    margin: 1rem 0 6rem 0;
+    margin: 4rem 0 10rem 0;
     background-color: orange;
     border-radius: 5px;
     color: #ffffff;
     display: inline-block;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: bold;
     padding: .7em 2em;
     text-align: center;
