@@ -81,9 +81,6 @@ section{
   html {
     font-size: 30%;
   }
-  .section-heading{
-    padding: 0 1.56rem;
-  }
 }
 
 @media only screen and (max-width: 12.5em) {

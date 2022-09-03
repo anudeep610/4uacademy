@@ -3,6 +3,12 @@
     padding: 15rem 5rem;
 }
 
+@media screen and (max-width:30em){
+    .fullBlog{
+        padding-top: 20rem;
+    }
+}
+
 .blog-path{
     font-size: 1.5rem;
     padding-left: 0.3rem;

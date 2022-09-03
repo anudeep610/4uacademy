@@ -77,7 +77,7 @@
 
 @media screen and (max-width:30em) {
     .registration-page{
-        padding: 15rem 5rem;
+        padding: 20rem 5rem;
     }    
     .registration-page-content .registration-form{
         width: 100%;
