@@ -11,6 +11,7 @@ export default function TermsOfUse() {
         <p className="terms-point"> 3. Provided recorded lecture session links are for personal use.</p>
         <p className="terms-point"> 4. You may not use or share any confidential information of the academy with others.</p>
         <p className="terms-point"> 5. Academy can use your name and photo for promotion in future.</p>
+        <p className="terms-para">We may terminate your access to our Services if you do not agree to be bound by these Terms. We reserve the right to modify these Terms  and Conditions.</p>
     </section>
   )
 }
