@@ -5,17 +5,23 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    min-height: auto;
 }
 
 .hero .hero-container {
     display: flex;
     justify-content: space-between;
     padding: 0 0 0 5rem;
+    height: 100%;
+}
+
+.hero .hero-container .hero-content{
+    width: 50%;
 }
 
 .hero .hero-content .hero-about {
     width: 80%;
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     font-weight: 600;
     padding: 0.5rem 0;
 }
@@ -27,7 +33,7 @@
 }
 
 .hero .hero-container .hero-image img{
-    height: 85%;
+    width: 100%;
 }
 
 .check{
@@ -67,7 +73,7 @@
 }
 
 .btn {
-    margin: 4rem 0;
+    margin: 1rem 0 6rem 0;
     background-color: orange;
     border-radius: 5px;
     color: #ffffff;
@@ -102,6 +108,30 @@
     }
 }
 
+@media screen and (min-width:125em){
+    .hero .hero-container{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:75em){
+    .hero .hero-container .hero-content .hero-heading{
+        font-size: 4rem;
+    }
+
+    .hero .hero-container .hero-content .hero-about{
+        font-size: 2rem;
+    }
+
+    .btn{
+        font-size: 2rem;
+    }
+
+    .check{
+        font-size: 2rem;
+    }    
+}
+
 @media screen and (max-width:62.5em){
     .hero .hero-container{
         flex-direction: column;
@@ -111,12 +141,12 @@
         display: none;
     }
 
-    .hero .hero-content .hero-about {
+    .hero .hero-container .hero-content{
         width: 100%;
     }
 
     .hero .hero-container .hero-content .hero-heading{
-        font-size: 8.5rem;
+        font-size: 5rem;
     }
 
     .hero .hero-container .hero-content .hero-about{

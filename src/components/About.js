@@ -8,7 +8,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function About() {
   return (
-    <section className='about'>
+    <section className='about' id="top">
         <h1 className="section-heading">About Us</h1>
         <div class="blockquote-wrapper">
           <div class="blockquote">

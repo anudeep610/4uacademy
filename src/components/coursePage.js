@@ -3,7 +3,7 @@ import "../components/css/coursePage.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faIndianRupee } from '@fortawesome/free-solid-svg-icons'
 import courseFeatures from "../assets/images/features.jpg";
-import {Link} from "react-router-dom"
+import {HashLink} from "react-router-hash-link"
 
 function CoursePage() {
     const [toggleState, setToggleState] = useState(1);
@@ -442,7 +442,7 @@ function CoursePage() {
                             </ul>
                         </div> */}
                         <div className="register-button">
-                            <Link to="/registration" class="btn-1 btn--shimmer"> Register Now </Link>
+                            <HashLink to="/registration#top" class="btn-1 btn--shimmer"> Register Now </HashLink>
                         </div>
                         <div className="course-price">
                             <button>

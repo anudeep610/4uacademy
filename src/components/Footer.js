@@ -22,7 +22,7 @@ export default function Footer() {
                 </div>
                 <div className="fcontainer">
                     <h3 className='footer-conatainer-heading'>Useful Links</h3>
-                    <Link className='link-name' to='/about'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>About Us</Link>
+                    <HashLink className='link-name' to='/about#top'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>About Us</HashLink>
                     <HashLink className='link-name' to='/#course'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>Courses</HashLink>
                     <HashLink className='link-name' to='/termsofuse#top'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>Terms of Use</HashLink>
                     <HashLink className='link-name' to='/privacypolicy#top'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>Privacy Policy</HashLink>

@@ -51,7 +51,7 @@ export default function Registration() {
         });
     };
 
-    return <section className="registration-page">
+    return <section className="registration-page" id="top">
         <h3 className="section-heading">Register Now !!!</h3>
         {
             failed && <div className="result-text">There was some error ;) please try again.</div>
