@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function Blog() {
     return (
-        <section className="blog">
+        <section className="blog" id="blog">
         {
             blogs.map((blog,i)=>{
                 return <div className="card">

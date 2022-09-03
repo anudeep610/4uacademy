@@ -1,10 +1,11 @@
 .hero {
     background-color: aliceblue;
     color: black;
-    padding-top: 9rem;
+    padding-top: 10rem;
     position: relative;
     display: flex;
     flex-direction: column;
+    /* max-height: 100vh; */
 }
 
 .hero .hero-container {
@@ -15,14 +16,51 @@
 
 .hero .hero-content .hero-about {
     width: 80%;
-    font-size: 1.6rem;
-    margin: 0;
-    padding: 0;
+    font-size: 1.9rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
 }
 
 .hero .hero-container .hero-content .hero-heading {
-    font-size: 5rem;
-    padding: 6rem 0;
+    font-size: 4.5rem;
+    padding: 2rem 0;
+    font-weight: 700;
+}
+
+.hero .hero-container .hero-image img{
+    height: 85%;
+}
+
+@media screen and (max-width:62.5em){
+    .hero .hero-container{
+        flex-direction: column;
+    }
+
+    .hero .hero-container .hero-image img{
+        display: none;
+    }
+
+    .hero .hero-content .hero-about {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:37.5em){
+    .hero{
+        padding-top: 12rem;
+    }
+}
+
+@media screen and (max-width:31.25em){
+    .hero{
+        padding-top: 18rem;
+    }
+}
+
+.check{
+    font-size: 2rem;
+    padding-right: 1rem;
+    color: #25d366;
 }
 
 .info-box {
@@ -66,6 +104,10 @@
     padding: .7em 2em;
     text-align: center;
     text-decoration: none;
+}
+
+.btn:hover{
+    color: white;
 }
 
 .btn--shimmer {

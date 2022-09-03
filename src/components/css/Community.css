@@ -32,8 +32,10 @@
     text-align: center;
 }
 
-.community .community-image img{
-    width:90rem;
+@media screen and (max-width:43.75em){
+    .community .community-image img{
+        width: 70%;
+    }
 }
 
 .community .community-button{

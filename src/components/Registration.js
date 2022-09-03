@@ -7,13 +7,16 @@ import "./css/Registration.css";
 import features from "../assets/images/features.png";
 import axios from "axios";
 import {Triangle} from "react-loader-spinner";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faFaceSmile} from '@fortawesome/free-solid-svg-icons';
 
 export default function Registration() {
     const [validated, setValidated] = useState(false);
     const [loading, setLoading] = useState(false);
     const [studentDetails, setStudentDetails] = useState({course:"java"});
     const [result, setResult] = useState(false);
-    const [failed, setFailed] = useState(true);
+    const [failed, setFailed] = useState(false);
 
     const handleSubmit = (event) => {
         const form = event.currentTarget;
@@ -112,13 +115,27 @@ export default function Registration() {
                         </Form.Group>
                     </Row>
 
+                    <Row className="mb-3">
+                        <Form.Group as={Col} controlId="validationCustom01">
+                            <Form.Label>Do you know any other programming languages? (If yes mention them)</Form.Label>                            
+                            <Form.Control className="input" size="lg" type="text" name="langKnow" onChange={(e)=>{setStudentDetails({...studentDetails ,langKnow:e.target.value})}}/>
+                        </Form.Group>
+                    </Row>
+
+                    <Row className="mb-3">
+                        <Form.Group as={Col} controlId="validationCustom01">
+                            <Form.Label>What are your expectations from the course?</Form.Label>                            
+                            <Form.Control as="textarea" className="input" required name="expectation" onChange={(e)=>{setStudentDetails({...studentDetails , expectation:e.target.value})}}/>
+                        </Form.Group>
+                    </Row>
+
                     <Button className="my-3 btn-submit" size="lg" type="submit">Submit</Button>
                 </Form>
             </div>
         </div>
         }
         {
-            result && <div className="result-text">Your Registraion is successfull. We will contact You soon.</div>
+            result && <div className="result-text">Your Registraion is successfull. Please do join our whatsapp group for further communication <a href="https://chat.whatsapp.com/FzoDYG9xt7I9Z0yBEOZiaB"> <FontAwesomeIcon icon={faWhatsapp}/> WhatsApp</a> </div>
         }
     </section>;
 }

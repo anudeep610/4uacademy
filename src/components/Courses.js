@@ -1,15 +1,13 @@
 import React from 'react';
 import "./css/Courses.css";
-import Java from "../assets/images/java.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faFloppyDisk} from "@fortawesome/free-regular-svg-icons";
 import {faFile, faCircleCheck, faCodeMerge} from "@fortawesome/free-solid-svg-icons";
 import {Link} from "react-router-dom";
 
 export default function Courses() {
 
     return (
-        <section className="courses">
+        <section className="courses" id="course">
             <span className='section-heading-container'><h1 className="section-heading">Our courses</h1></span>
             <div className="course-cards-container">
                 <div className="course-card">
@@ -31,7 +29,7 @@ export default function Courses() {
                             <p className="course-outcomes-content"> Java basics, coditional statements, loops, patterns, recursion, strings, arrays ,oops ,exception handling  ... and much more!!</p>
                         </div>
                         <div className="course-learn-more">
-                            <Link className='course-link' to="/coursepage/java">Learn More &rarr;</Link>
+                            <Link className='course-link' to="/coursepage/java">Explore Course &rarr;</Link>
                         </div>
                     </div>
                 </div>

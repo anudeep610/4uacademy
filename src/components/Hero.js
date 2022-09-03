@@ -2,17 +2,24 @@ import React from 'react'
 import "./css/Hero.css";
 import laptop from "../assets/images/laptop.png";
 import intro from "../assets/videos/intro.mp4";
-import boy from "../assets/images/boy.png"
+import boy from "../assets/images/boy.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquareCheck } from '@fortawesome/free-solid-svg-icons';
+
 
 
 export default function Hero() {
   return (
-    <section className='hero'>
+    <section className='hero' id="hero">
         <div className="hero-container">
             <div className="hero-content">
-                <h2 className="hero-heading">Boost Your Career With Us </h2>
-                <p className="hero-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nihil maiores ex non iure ratione id dicta quaerat? Error explicabo suscipit rerum quos inventore magnam, in ullam assumenda ad! Repellat, delectus? In doloribus dolor porro sit eum, voluptates incidunt quasi quaerat animi maxime similique explicabo ipsam, iusto ea quos qui.</p>
-                <a href="#" class="btn btn--shimmer">Explore More </a>
+                <h2 className="hero-heading"> Placements Made Easy!!! </h2>
+                <p className="hero-about"> <FontAwesomeIcon icon={faSquareCheck} className="check"/> Individual attention for each student. </p>
+                <p className="hero-about"> <FontAwesomeIcon icon={faSquareCheck} className="check"/> Live video classes, doubts discussion and regular performance evaluation assignments. </p>
+                <p className="hero-about"> <FontAwesomeIcon icon={faSquareCheck} className="check"/> Tutors are passionate experts in their particular technical field. </p>
+                <p className="hero-about"> <FontAwesomeIcon icon={faSquareCheck} className="check"/> Mock interview & resume building. </p>
+                <p className="hero-about"> <FontAwesomeIcon icon={faSquareCheck} className="check"/> Access to our 4U Academy network to connect and interact. </p>
+                <a href="#course" class="btn btn--shimmer">Explore More </a>
             </div>
             <div className="hero-image">
                 <img src={boy} alt="confused boy" />

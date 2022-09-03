@@ -45,6 +45,7 @@
 .rbd-review-slider .rbd-gravatar {
 	border-radius: 100%;
 	width: 10rem !important;
+	height: 10rem;
 	float: left;
 	margin-right: 1.5rem;
 	border: 6px solid transparent;

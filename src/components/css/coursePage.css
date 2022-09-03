@@ -5,9 +5,10 @@ p{
 
 .coursepage_main-container .coursePage-banner-container{
     background-image: url("../../assets/images/courseBanner.jpg");
+    /* background-color: aliceblue; */
     background-size: cover;
-    width: 100%;
-    height: 60vh;
+    /* width: 100%; */
+    height: 65vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +23,7 @@ p{
 }
 
 .coursePage-fontIcon{
-    color: rgb(256, 256, 256,0.7);;
+    color: rgb(256, 256, 256,0.7);
     font-size:2.3rem;
     transform: rotate(-90deg);
 
@@ -39,7 +40,9 @@ p{
 
 .coursePage-course-overveiw-wrapper .coursePage-overveiw-col1{
     /* grid-area: b; */
-    width: 70%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    width: 68.6%;
     margin-bottom: 5rem;
     box-shadow: 0 0 30px #eee;
     background-color: #FFFFFF;
@@ -139,7 +142,7 @@ p{
 
 .course-contents{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     padding:2.5rem 2rem;
     background-color: #F7F7F7;
     border: rgba(98,98,98,0.15) 1.2px solid;
@@ -353,6 +356,7 @@ p{
     margin: 2rem 0;
     transition-property: background-color color;
     transition-duration: 550ms;
+    cursor: default;
 }
 
 .course-price button:hover{
@@ -376,7 +380,7 @@ p{
 }
 
 .btn-1{
-    /* margin: 0 0 0 5rem; */
+    margin-top: 5rem;
     background-color: orange;
     border-radius: 5px;
     color: #ffffff;
@@ -386,4 +390,8 @@ p{
     padding: 1.5rem 5rem;
     text-align: center;
     text-decoration: none;
+}
+
+.btn-1:hover{
+    color:white;
 }

@@ -28,6 +28,13 @@ const studentSchema=new mongoose.Schema({
     course:{
         type:String,
         required:true
+    },
+    langKnow:{
+        type:String
+    },
+    expectation:{
+        type:String,
+        required:true
     }
 },{timestamps:true});
 

@@ -1,9 +1,10 @@
 import React,{useState} from 'react'
 import "../components/css/coursePage.css"
-import banner from "../assets/images/courseBanner.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFile,faPuzzlePiece,faClock,faUser,faCheckSquare,faIndianRupee } from '@fortawesome/free-solid-svg-icons'
-import courseFeatures from "../assets/images/features.jpg"
+import { faIndianRupee } from '@fortawesome/free-solid-svg-icons'
+import courseFeatures from "../assets/images/features.jpg";
+import {Link} from "react-router-dom"
+
 function CoursePage() {
     const [toggleState, setToggleState] = useState(1);
     const [showStatus, setShowStatus] = useState("Show More")
@@ -44,7 +45,7 @@ function CoursePage() {
                             <button 
                             onClick={()=>toggleTab(3)}
                             className={toggleState ===3 ? "coursePage-tabs coursePage-active-tabs":"coursePage-tabs"}>
-                                Class Structre
+                                Class Structure
                             </button>
                             <button 
                             onClick={()=>toggleTab(4)}
@@ -111,10 +112,7 @@ function CoursePage() {
                                         <div className="section-title">
                                             <p>Introduction session & First java program</p>
                                             <div className="section-description">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                    doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                </p>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -124,12 +122,6 @@ function CoursePage() {
                                         </div>
                                         <div className="section-title">
                                             <p>Tool and software setup</p>
-                                            <div className="section-description">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                    doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                </p>
-                                            </div>
                                         </div>
                                     </div>
                                     <div className="course-contents">
@@ -138,12 +130,6 @@ function CoursePage() {
                                         </div>
                                         <div className="section-title">
                                             <p>JDK, JRE & JVM understanding</p>
-                                            <div className="section-description">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                    doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                </p>
-                                            </div>
                                         </div>
                                     </div>
                                     <div className="course-contents">
@@ -152,12 +138,6 @@ function CoursePage() {
                                         </div>
                                         <div className="section-title">
                                             <p>Data types & Variables</p>
-                                            <div className="section-description">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                    doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                </p>
-                                            </div>
                                         </div>
                                     </div>
                                     <div className={showMore?"show-more-course-contents":"show-more-course-contents active-course-content"}>
@@ -167,12 +147,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Operators & literals</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -183,12 +157,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Control flow statements(conditional, loops & jump statements)</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -199,12 +167,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Patterns</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -215,12 +177,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Methods & Keywords</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -231,12 +187,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Recursion</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -246,13 +196,7 @@ function CoursePage() {
                                                 <h3>10</h3>
                                             </div>
                                             <div className="section-title">
-                                                <p>Used input</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
+                                                <p>Used input</p> 
                                             </div>
                                         </div>
                                     </div>
@@ -263,12 +207,7 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Arrays</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -279,12 +218,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>2D arrays (matrix)</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -295,12 +228,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Oops introduction</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -311,12 +238,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Objects and classes</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -327,12 +248,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Constructors</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -343,12 +258,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>This and static keyword</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -359,12 +268,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Inheritance</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -375,12 +278,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Polymorphism</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -391,12 +288,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Abstraction & java interface</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -407,12 +298,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Encapsulation & access modifiers</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -423,12 +308,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Memory management in java</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -439,12 +318,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Strings </p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -455,12 +328,6 @@ function CoursePage() {
                                             </div>
                                             <div className="section-title">
                                                 <p>Exception handling</p>
-                                                <div className="section-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, delectus sit autem repellat 
-                                                        doloremque molestiae necessitatibus tempore. Quia corporis, quod quo voluptatem omnis repellendus autem repudiandae. Expedita cumque consectetur ducimus?
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -495,7 +362,7 @@ function CoursePage() {
                                         <h3>Class Timming</h3>
                                         <ul>
                                             <li>9 pm to 10 pm (3 days a week).</li>
-                                            <li>Alternate days mostly.</li>
+                                            <li>Alternate days mostly(Flexible with schedule).</li>
                                         </ul>
                             
                                     </div>
@@ -534,7 +401,7 @@ function CoursePage() {
                         </div>
                     </div>
                     <div className="coursePage-overveiw-col2">
-                        <div className="course-overveiw-features">
+                        {/* <div className="course-overveiw-features">
                             <ul>
                                 <li>
                                     <FontAwesomeIcon
@@ -573,6 +440,9 @@ function CoursePage() {
                                     <span className='featureValue'>Yes</span>
                                 </li>
                             </ul>
+                        </div> */}
+                        <div className="register-button">
+                            <Link to="/registration" class="btn-1 btn--shimmer"> Register Now </Link>
                         </div>
                         <div className="course-price">
                             <button>
@@ -588,9 +458,6 @@ function CoursePage() {
                             />1999
                             <span>with EMI payment option</span>
                             </button>
-                        </div>
-                        <div className="register-button">
-                            <a href="#" class="btn-1 btn--shimmer">Explore More </a>
                         </div>
                     </div>
 

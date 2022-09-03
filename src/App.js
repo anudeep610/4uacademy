@@ -13,6 +13,7 @@ import CoursePage from "./components/coursePage";
 function App() {
   return (
     <div className="App">
+      <div id="top"></div>
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>

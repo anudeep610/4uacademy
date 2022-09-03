@@ -14,7 +14,7 @@ export default function Community() {
                     <img src={commImage} alt="community" srcset="" />
                 </div>
             </div>
-            <a href="http://" className='community-button'>Join Our Community</a>
+            {/* <a href="http://" className='community-button'>Join Our Community</a> */}
         </section>
     )
 }
