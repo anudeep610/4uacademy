@@ -9,6 +9,8 @@ import Java from './components/Java';
 import Footer from "./components/Footer";
 import View from "./components/view";
 import CoursePage from "./components/coursePage";
+import PrivacyPolicy from './components/PrivacyPolicy';
+import TermsOfUse from './components/TermsOfUse';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path="/course/java" element={<Java/>}/>
         <Route path="/efkocefo/efvee/re" element={<View/>}/>
         <Route path="/coursePage/java" element={<CoursePage/>}/>
+        <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
+        <Route path="/termsofuse" element={<TermsOfUse/>}/>
       </Routes>
       <Footer/>
     </div>

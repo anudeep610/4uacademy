@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faCopyright, faRocket} from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF,faInstagram, faYoutube, faTelegram } from '@fortawesome/free-brands-svg-icons';
 import {Link} from "react-router-dom";
+import {HashLink} from "react-router-hash-link";
 
 export default function Footer() {
     return (
@@ -22,10 +23,10 @@ export default function Footer() {
                 <div className="fcontainer">
                     <h3 className='footer-conatainer-heading'>Useful Links</h3>
                     <Link className='link-name' to='/about'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>About Us</Link>
-                    <a className='link-name' href='/'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>Courses</a>
-                    <a className='link-name' href='/'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>Terms of Use</a>
+                    <HashLink className='link-name' to='/#course'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>Courses</HashLink>
+                    <HashLink className='link-name' to='/termsofuse#top'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>Terms of Use</HashLink>
                     <a className='link-name' href='/'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>Refund Policy</a>
-                    <a className='link-name' href='/'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>Privacy Policy</a>
+                    <HashLink className='link-name' to='/privacypolicy#top'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>Privacy Policy</HashLink>
                 </div>
                 <div className="fcontainer">
                     <h3 className='footer-conatainer-heading'>Get in Touch</h3>
