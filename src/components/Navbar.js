@@ -1,7 +1,6 @@
 import React from 'react'
 import "./css/Navbar.css";
 import logo from "../assets/images/logo-removebg.png";
-import { Link } from 'react-router-dom';
 import { NavHashLink, HashLink } from 'react-router-hash-link';
 
 export default function Navbar() {

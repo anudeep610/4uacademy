@@ -2,7 +2,6 @@ import React from 'react';
 import "./css/Courses.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faFile, faCircleCheck, faCodeMerge} from "@fortawesome/free-solid-svg-icons";
-import {Link} from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
 export default function Courses() {

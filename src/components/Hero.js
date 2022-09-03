@@ -1,7 +1,5 @@
 import React from 'react'
 import "./css/Hero.css";
-import laptop from "../assets/images/laptop.png";
-import intro from "../assets/videos/intro.mp4";
 import boy from "../assets/images/boy.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareCheck } from '@fortawesome/free-solid-svg-icons';

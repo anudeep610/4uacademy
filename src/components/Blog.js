@@ -1,7 +1,6 @@
 import React from 'react'
 import "./css/Blog.css";
 import blogs from "./blogData.json";
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 export default function Blog() {

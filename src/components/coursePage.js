@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faIndianRupee } from '@fortawesome/free-solid-svg-icons'
 import courseFeatures from "../assets/images/features.jpg";
 import {Link} from "react-router-dom"
-import { HashLink } from 'react-router-hash-link';
+
 function CoursePage() {
     const [toggleState, setToggleState] = useState(1);
     const [showStatus, setShowStatus] = useState("Show More")

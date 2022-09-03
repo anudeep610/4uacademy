@@ -9,7 +9,6 @@ import axios from "axios";
 import {Triangle} from "react-loader-spinner";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faFaceSmile} from '@fortawesome/free-solid-svg-icons';
 
 export default function Registration() {
     const [validated, setValidated] = useState(false);
