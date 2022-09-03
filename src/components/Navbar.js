@@ -11,11 +11,11 @@ export default function Navbar() {
             <h1>4U Academy</h1>
         </div>
         <div className="sections">
-          <a href="#hero" className='section-name'>Home</a>
+          <a href="/#hero" className='section-name'>Home</a>
           <Link className='section-name' to='/about'>About</Link>
-          <a href="#course" className='section-name'>Courses</a>
-          <a href="#testimonial" className='section-name'>Testimonials</a>
-          <a href="#blog" className='section-name'>Blog</a>
+          <a href="/#course" className='section-name'>Courses</a>
+          <a href="/#testimonial" className='section-name'>Testimonials</a>
+          <a href="/#blog" className='section-name'>Blog</a>
         </div>
     </header>
   )
