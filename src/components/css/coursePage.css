@@ -65,6 +65,7 @@ p{
     font-weight: 600;
     color: rgba(98,98,98);
     border: rgba(98,98,98,0.15) 1px solid;
+    width:25%;
 }
 
 .coursePage-course-overveiw-wrapper .coursePage-overveiw-col1 .coursePage-tabs:hover{
