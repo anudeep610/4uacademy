@@ -14,7 +14,7 @@ export default function Footer() {
                 <div className="fcontainer">
                     <div className="branding">
                         <img src={logo} alt="logo" />
-                        <h2>academy_4u</h2>
+                        <h2>4U Academy</h2>
                     </div>
                     <p className='tagline'>
                         A Complete Solution To Placement Preparation <FontAwesomeIcon icon={faRocket} /> <FontAwesomeIcon icon={faRocket}/>
