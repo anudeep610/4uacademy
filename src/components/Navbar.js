@@ -2,20 +2,21 @@ import React from 'react'
 import "./css/Navbar.css";
 import logo from "../assets/images/logo-removebg.png";
 import { Link } from 'react-router-dom';
+import { NavHashLink, HashLink } from 'react-router-hash-link';
 
 export default function Navbar() {
   return (
     <header className='header'>
         <div className="branding">
             <img src={logo} alt="logo" srcset="" />
-            <h1>4U Academy</h1>
+            <HashLink className='brand' to="/#hero">4U Academy</HashLink>
         </div>
         <div className="sections">
-          <a href="/#hero" className='section-name'>Home</a>
-          <Link className='section-name' to='/about'>About</Link>
-          <a href="/#course" className='section-name'>Courses</a>
-          <a href="/#testimonial" className='section-name'>Testimonials</a>
-          <a href="/#blog" className='section-name'>Blog</a>
+          <NavHashLink to="/#hero" smooth activeStyle={{ color: 'orange' }} className='section-name'>Home</NavHashLink>
+          <HashLink className='section-name' to='/about'>About</HashLink>
+          <NavHashLink to="/#course" smooth activeStyle={{ color: 'orange' }} className='section-name'>Courses</NavHashLink>
+          <NavHashLink to="/#testimonial" smooth activeStyle={{ color: 'orange' }} className='section-name'>Testimonials</NavHashLink>
+          <NavHashLink to="/#blog" smooth activeStyle={{ color: 'orange' }} className='section-name'>Blog</NavHashLink>
         </div>
     </header>
   )

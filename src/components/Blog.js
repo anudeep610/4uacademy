@@ -2,6 +2,7 @@ import React from 'react'
 import "./css/Blog.css";
 import blogs from "./blogData.json";
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 export default function Blog() {
     return (
@@ -19,7 +20,7 @@ export default function Blog() {
 				</div>
 				<div class="card-bottom flex-row">
                     <p class="author">- By {blog.author}</p>
-					<Link to={blog.link} class="button">Read More</Link>
+					<HashLink to={blog.link} class="button">Read More</HashLink>
 				</div>
             </div>
             })

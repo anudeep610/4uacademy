@@ -4,7 +4,7 @@ import photo from "../assets/images/akash.jpeg"
 
 export default function Blog1() {
   return (
-    <section className='fullBlog'>
+    <section className='fullBlog' id="top">
       <p className='blog-path'>Blog &#62; Getting Started With Placement Preparation </p>
       <h3 className="blog-heading">Getting Started With Placement Preparation</h3>
       <div className="blog-details-card">
