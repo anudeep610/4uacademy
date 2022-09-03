@@ -35,12 +35,12 @@ function CoursePage() {
                             className={toggleState ===1 ? "coursePage-tabs coursePage-active-tabs":"coursePage-tabs"}
                             onClick={()=>toggleTab(1)}
                             >
-                                Overveiw
+                                Course Overveiw
                             </button>
                             <button 
                             onClick={()=>toggleTab(2)} 
                             className={toggleState ===2 ? "coursePage-tabs coursePage-active-tabs":"coursePage-tabs"}>
-                                Curriculum
+                                Course Curriculum
                             </button>
                             <button 
                             onClick={()=>toggleTab(3)}
