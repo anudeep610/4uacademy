@@ -1,13 +1,57 @@
 import React from 'react';
 import "./css/About.css";
+import nikhil from "../assets/images/nikhil.jpg";
+import narendra from "../assets/images/narendra.jpg";
+import kushal from "../assets/images/kushal.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function About() {
   return (
     <section className='about'>
-        <h1 className="section-heading">Who are we....???</h1>
-        <p className="about-para">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae obcaecati possimus id, aspernatur, odit libero ratione excepturi commodi repellat praesentium repudiandae inventore cupiditate unde, voluptates blanditiis? Ipsa magnam nihil odio dolorum iusto harum natus voluptatum quia eveniet eos. Ipsum perferendis nulla mollitia est vero, repudiandae rem minus! Autem consequatur laborum, assumenda id alias amet nam! Assumenda atque velit recusandae, mollitia quos, rerum quasi eligendi quisquam temporibus dolor quo maiores! Numquam, sapiente, necessitatibus similique nisi fuga excepturi quia molestiae facere doloremque quaerat ad id doloribus rerum hic! Voluptatum quo unde mollitia, cumque exercitationem eos ab suscipit repellat quas nam quisquam earum doloremque reprehenderit assumenda fuga rem delectus temporibus excepturi atque maxime, corrupti reiciendis rerum. Porro repellat aliquam vero sequi fugit assumenda dolor facere minima corrupti natus! Vel quod officia error quae accusantium nam assumenda perferendis! Maxime deserunt quam dolore doloremque impedit voluptatibus quaerat modi harum rem dolorem! Dolorum dolor aliquam laborum minus error ullam aliquid quis repudiandae architecto, perferendis cupiditate. Rerum distinctio eum incidunt, sapiente quae consequuntur ex itaque perferendis. Officia corporis deleniti enim voluptates iure distinctio, nisi eos libero dolor, necessitatibus quis ipsum ea temporibus aliquid nulla? Illo voluptatem veniam deleniti magnam. Porro odit aliquam sunt adipisci fugiat delectus fugit, molestias sapiente qui nam, iste totam, officia amet ex ratione! Possimus ipsam amet nemo ipsa, mollitia laboriosam! Quisquam laboriosam vel atque, quibusdam velit corrupti quidem, deleniti recusandae vitae cumque beatae architecto possimus, amet nam earum. Temporibus odit tempora quasi est repellendus, ullam, odio ducimus veniam sint commodi quia perferendis, doloremque consequuntur accusamus libero voluptatibus voluptatum corrupti nesciunt. Rem exercitationem et nam perspiciatis incidunt quos quia magni tenetur odit aspernatur, harum quidem sequi impedit eveniet, error fugit, aperiam possimus autem recusandae? Eum commodi magni a adipisci sit recusandae reprehenderit quo temporibus eaque cum ex, culpa impedit quibusdam inventore aspernatur natus beatae.
-        </p>
+        <h1 className="section-heading">About Us</h1>
+        <div class="blockquote-wrapper">
+          <div class="blockquote">
+            <h1> A good education is the  <span className="diff">foundation</span> for a better <span className="diff"> future .</span></h1>
+          </div>
+        </div>
+        <p className="about-para">4U academy is an educational organisation which ensures a complete solution for placement preparations by providing the best learning experience. Our mission is to strengthen our students in all technical aspects. </p>
+        <p className="about-para">Our academy strives to prepare students for getting placed in good companies for appreciable packages. We offer technical courses which are required to face placement interviews. We guide and help students to choose their career path.  We pay individual attention to each and every student and follow up their learning rate, performance etc.</p>
+        <p className="about-para">Our academy includes many salient features such as, individual attention, live video classes, doubts clarification sessions, recorded videos of all live classes, assignments will be given after every class to evaluate the level of performance of students. We provide the best tutors and instructors who are experts and passionate about particular technical skills. We carry out mock interviews to our students after the completion of course to analyse their ability to attend placement interviews. </p>
+        <p className="about-para">We also provide an additional benefit to our students that we create an opportunity to connect and interact with the individuals who are placed in good companies for good packages to clarify their additional placement related queries.</p>
+        <h1 className="section-heading">Our Team</h1>
+        <div className="team-cards">
+          <figure class="snip1515">
+            <div class="profile-image"><img src={narendra} alt="nikhil" /></div>
+            <figcaption>
+              <h3>Narendra Kajla</h3>
+              <h4>Founder & Instructor</h4>
+              <div class="icons">
+                <a target="__blank" href="https://www.linkedin.com/in/narendrakajla77/"> <FontAwesomeIcon className='linkedin' icon={faLinkedin}/> </a>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="snip1515">
+            <div class="profile-image"><img src={nikhil} alt="nikhil" /></div>
+            <figcaption>
+              <h3>Nikhil Raj</h3>
+              <h4>Founder & Mentor</h4>
+              <div class="icons">
+                <a target="__blank" href=" https://www.linkedin.com/in/nikhil-raj-349265181/"> <FontAwesomeIcon className='linkedin' icon={faLinkedin}/> </a>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="snip1515">
+            <div class="profile-image"><img src={kushal} alt="nikhil" /></div>
+            <figcaption>
+              <h3>Kushal T H</h3>
+              <h4>Member</h4>
+              <div class="icons">
+                <a target="__blank" href="https://www.linkedin.com/in/kushal-t-h-03349416b/"> <FontAwesomeIcon className='linkedin' icon={faLinkedin}/> </a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
     </section>
   )
 }

@@ -3,8 +3,8 @@
     display: flex;
     flex-direction: column;
     max-height: 100%;
-    justify-content: center;
-    /* background-image: url("../../assets/images/background.jpg"); */
+    /* justify-content: center; */
+    background-image: url("../../assets/images/background.jpg");
 }
 
 .community-details .community-para{

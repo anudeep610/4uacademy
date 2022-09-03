@@ -25,7 +25,6 @@ export default function Footer() {
                     <Link className='link-name' to='/about'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>About Us</Link>
                     <HashLink className='link-name' to='/#course'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>Courses</HashLink>
                     <HashLink className='link-name' to='/termsofuse#top'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>Terms of Use</HashLink>
-                    <a className='link-name' href='/'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>Refund Policy</a>
                     <HashLink className='link-name' to='/privacypolicy#top'><FontAwesomeIcon icon={faArrowRight} className="arrow"/>Privacy Policy</HashLink>
                 </div>
                 <div className="fcontainer">
