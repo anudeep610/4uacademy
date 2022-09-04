@@ -22,6 +22,7 @@
 .blog .card-top img {
     display: block;
     width: 100%;
+    height: 17rem;
 }
 
 .blog .container {

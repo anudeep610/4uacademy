@@ -11,6 +11,7 @@ import View from "./components/view";
 import CoursePage from "./components/coursePage";
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsOfUse from './components/TermsOfUse';
+import BlogTwo from './components/Blog2';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/blog1" element={<BlogOne/>}/>
+        <Route path={"/blog2"} element={<BlogTwo/>}/>
         <Route path="/registration" element={<Registration/>}/>
         <Route path="/course/java" element={<Java/>}/>
         <Route path="/efkocefo/efvee/re" element={<View/>}/>
