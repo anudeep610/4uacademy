@@ -14,7 +14,7 @@ export default function Blog1() {
         <div className="blog-details">
           <div className="blog-details-sub-card">
             <p className="blog-author">Akash Binu</p>
-            <p className="blog-date">Saturday, Sep 03, 2022 | 5 min</p>
+            <p className="blog-date">Saturday, Sep 03, 2022 | 5 min read</p>
           </div>
         </div>
       </div>
