@@ -1,8 +1,12 @@
+.blogs{
+    min-height: auto;
+}
+
 .blog {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* padding: 10rem 0; */
+    padding: 10rem 0;
     align-items: center;
 }
 

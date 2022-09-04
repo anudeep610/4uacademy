@@ -5,7 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 
 export default function Blog() {
     return (
-        <section>
+        <section className="blogs">
             <h3 className="section-heading">Blogs</h3>
             <div className="blog" id="blog">
                 {

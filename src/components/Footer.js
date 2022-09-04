@@ -39,7 +39,7 @@ export default function Footer() {
                     <a className='link-name' href='https://www.youtube.com/channel/UCprP0QTP_Ado32BUpeVrFcA'> <FontAwesomeIcon icon={faYoutube} className="brands"/>Youtube</a>
                 </div>
             </div>
-            <div className="copyright"> <FontAwesomeIcon icon={faCopyright}/> copyrights 2022</div>
+            <div className="copyright"> Copyright <FontAwesomeIcon icon={faCopyright}/> 2022 4U Academy, All Rights Reserved.</div>
         </footer>   
     )
 }

@@ -20,7 +20,7 @@
 
 .footer .branding{
     display: flex;
-    padding: 0 0 2rem 0;
+    /* padding: 0 0 2rem 0; */
 }
 
 .footer .branding h2{
