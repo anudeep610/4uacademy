@@ -31,7 +31,7 @@ export default function Registration() {
 
     const sendRequest = () => {
         setLoading(true);
-        axios.post('http://localhost:3001/register', studentDetails)
+        axios.post('https://backend-4uacademy.herokuapp.com/register', studentDetails)
             .then(response => {
                 if (response.status === 200) {
                         setLoading(false);

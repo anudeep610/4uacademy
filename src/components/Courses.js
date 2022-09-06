@@ -1,8 +1,9 @@
 import React from 'react';
 import "./css/Courses.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faFile, faCircleCheck, faCodeMerge} from "@fortawesome/free-solid-svg-icons";
+import { faCircleCheck, faCodeMerge} from "@fortawesome/free-solid-svg-icons";
 import { HashLink } from 'react-router-hash-link';
+import {faJava } from '@fortawesome/free-brands-svg-icons';
 
 export default function Courses() {
 
@@ -13,7 +14,7 @@ export default function Courses() {
                 <div className="course-card">
                     <div className="course-card-header">
                         <h3 className="course-card-heading">Complete Java placement course</h3>
-                        <FontAwesomeIcon icon={faFile}/>
+                        <FontAwesomeIcon icon={faJava}/>
                     </div>
                     <div className="course-card-body">
                         <div className="course-requirments">

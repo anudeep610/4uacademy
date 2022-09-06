@@ -5,7 +5,7 @@ import "./css/view.css";
 export default function View() {
     const [data, setData] = useState([]);
     useEffect(()=>{
-        axios.get("http://localhost:3001/asxde").then(data=>setData(data.data))
+        axios.get("https://backend-4uacademy.herokuapp.com/asxde").then(data=>setData(data.data))
         console.log(data)
     },[])
 
