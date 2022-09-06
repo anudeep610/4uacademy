@@ -39,6 +39,16 @@
 .registration-page-content .registration-form Form .btn-submit{
     padding: 1rem 3rem;
     font-size: 1.7rem;
+    border: none;
+}
+
+.registration-page-content .registration-form Form .btn-submit:hover, .registration-page-content .registration-form Form .btn-submit:active{
+    background-color: #FF8C00;
+}
+
+.registration-page-content .registration-form Form .btn-submit:focus{
+    background-color: orange;
+    border: none;
 }
 
 .loader{

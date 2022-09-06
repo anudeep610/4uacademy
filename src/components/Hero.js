@@ -1,9 +1,9 @@
 import React from 'react'
 import "./css/Hero.css";
-import boy from "../assets/images/boy.png";
+import boy from "../assets/images/confused.gif";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareCheck } from '@fortawesome/free-solid-svg-icons';
-
+import { HashLink } from 'react-router-hash-link';
 
 
 export default function Hero() {
@@ -24,7 +24,7 @@ export default function Hero() {
             </div>
         </div>
         <div className="info-box">
-                <h5 className="info">Batch starting soon!!!</h5>
+                <HashLink to="/coursePage/java#top" className="info">Register to Java course</HashLink>
         </div>
         {/* <div className="main-heading">
             <div className="type-container">

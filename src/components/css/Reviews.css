@@ -1,5 +1,7 @@
 .reviews{
     min-height: auto;
+	background-image: linear-gradient(url("../../assets/images/25331.jpg"),rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.815)white,white);
+    background-size: cover;
 }
 
 .rbd-review-slider .rbd-preloader {

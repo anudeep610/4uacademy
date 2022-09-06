@@ -32,13 +32,20 @@
     font-weight: 700;
 }
 
+.hero .hero-container .hero-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .hero .hero-container .hero-image img{
-    width: 100%;
+    width: 50rem;
 }
 
 .check{
-    font-size: 2rem;
-    padding-right: 1rem;
+    font-size: 2.2rem;
+    margin-right: 1rem;
     color: #25d366;
 }
 
@@ -46,8 +53,8 @@
     background-color: #DD0004;
     width: fit-content;
     margin: 0 auto;
-    border-top-right-radius: 2rem;
-    border-top-left-radius: 2rem;
+    border-top-right-radius: 1.8rem;
+    border-top-left-radius: 1.8rem;
     position: absolute;
     bottom: 0;
     height: 0;
@@ -66,15 +73,17 @@
 }
 
 .info-box .info {
-    padding: 1.5rem 2rem .5rem 2rem;
+    padding: 3.5rem 2rem .5rem 2rem;
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.1rem;
     color: white;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 .btn {
     margin: 4rem 0 10rem 0;
-    background-color: orange;
+    background-color: #FF8C00;
     border-radius: 5px;
     color: #ffffff;
     display: inline-block;
@@ -188,131 +197,3 @@
 
 
 
-
-/* .hero .main-heading{
-    width: 50%;
-}
-
-.hero .main-heading .heading{
-    font-size: 7rem;
-    margin:0 0 0 5rem;
-}
-
-.hero .video-container{
-    width:50%;
-}
-
-.type-container{
-    display: inline-block;
-}
-
-.typed-out {
-    overflow: hidden;
-    white-space: nowrap;
-    font-size: 1.6rem;
-    margin-right: 0;
-    width: 0;
-}
-
-.anime-1{
-    border-right: .15em solid orange;
-    animation: 
-        blink 1s,
-        typing 1s steps(20, end) 1s forwards,
-        disappear 1s;
-}
-
-.anime-2{
-    animation: 
-        blink 1s 2s,
-        typing 1s steps(20, end) 2s forwards,
-        disappear 1s;
-}
-
-.anime-3{
-    animation: 
-        typing 1s steps(20, end) 3s forwards,
-        blink .8s 3s infinite;
-}
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100%;
-        border-color: transparent;
-    }
-}
-
-@keyframes blink {
-    from { border-right: .15em solid transparent }
-    to { border-right: .15em solid orange; }
-}
-
-@keyframes disappear{
-    from{border-color: orange;}
-    to{border-color: transparent;}
-}
-
-.video-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.laptop{
-    width:100%;
-    position: relative;
-}
-
-.laptop img{
-    width: 100%;
-}
-
-.laptop video{
-    position: absolute;
-    width: 67.7%;
-    height: 83.5%;
-    top: 5%;
-    left:17.5%;
-    object-fit: cover;
-}
-
-@media only screen and (max-width: 51.5em) {
-    .hero{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .hero .main-heading{
-        width: 100%;
-        text-align: center;
-        margin: 5rem 0;
-    }
-    .hero .video-container{
-        width: 100%;
-        margin: 1rem 0;
-    }
-    .hero .main-heading .heading{
-        margin: 0 2rem;
-    }
-}
-@media screen and (max-width:31.25em) {
-    .anime-1,.anime-2,.anime-3{
-        border: none;
-        animation: none;
-    }
-    .typed-out{
-        width:100%;
-    }
-}
-@media screen and (max-width:25em) {
-    .hero{
-        justify-content: space-evenly;
-    }
-    .hero .main-heading{
-        display: flex;
-        flex-direction: column;
-    }
-    .hero .main-heading .heading{
-        font-size: 10rem;
-    }
-} */

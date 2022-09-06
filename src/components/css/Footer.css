@@ -49,6 +49,11 @@
     padding: 0.5rem 0;
 }
 
+.footer .fcontainer .link-name:hover{
+    font-weight: 450;
+    color:#FF8C00;
+}
+
 .arrow{
     padding: 0 1.5rem 0 0;
     color: orange;

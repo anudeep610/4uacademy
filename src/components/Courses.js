@@ -25,6 +25,10 @@ export default function Courses() {
                             <p className="course-outcomes-content">Ace all your placement interviews in style. </p>
                         </div>
                         <div className="course-outcomes">
+                            <h6 className="course-outcomes-heading">Batch Starts On</h6>
+                            <p className="course-outcomes-content"> 13th September 2022 </p>
+                        </div>
+                        <div className="course-outcomes">
                             <h6 className="course-outcomes-heading">What you'll learn?</h6>
                             <p className="course-outcomes-content"> Java basics, coditional statements, loops, patterns, recursion, strings, arrays ,oops ,exception handling  ... and much more!!</p>
                         </div>
@@ -49,11 +53,15 @@ export default function Courses() {
                             <p className="course-outcomes-content"> Learn the nitty gritty of data structures. </p>
                         </div>
                         <div className="course-outcomes">
+                            <h6 className="course-outcomes-heading">Batch Starts On</h6>
+                            <p className="course-outcomes-content"> Stay Tuned... </p>
+                        </div>
+                        <div className="course-outcomes">
                             <h6 className="course-outcomes-heading">What you'll learn?</h6>
-                            <p className="course-outcomes-content"> Complextiy Analysis, Stacks, Queues, Linked Lists, Trees, Tries, dynamic programming, greddy techniques... and much more!!</p>
+                            <p className="course-outcomes-content"> Complextiy Analysis, Stacks, Queues, Linked Lists, Trees, Tries, dynamic programming, greedy techniques... and much more!!</p>
                         </div>
                         <div className="course-learn-more">
-                            <a className='course-link' href="http://">Coming Soon</a>
+                            <p className='course-link'>Coming Soon</p>
                         </div>
                     </div>
                 </div>

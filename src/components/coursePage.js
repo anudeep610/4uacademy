@@ -445,18 +445,18 @@ function CoursePage() {
                             <HashLink to="/registration#top" class="btn-1 btn--shimmer"> Register Now </HashLink>
                         </div>
                         <div className="course-price">
+                            <button className='course-start'> <span>Batch starts on</span> <br /> 13th September 2022 </button>
                             <button>
                                 <FontAwesomeIcon
                                 className='ruppe-icon'
                                 icon={faIndianRupee}
-                            />1499 <span>on a one-time payment</span>
+                            />1500 <span>on a one-time payment</span>
                             </button>
                             <button>
                                 <FontAwesomeIcon
                                 className='ruppe-icon'
                                 icon={faIndianRupee}
-                            />1999
-                            <span>with EMI payment option</span>
+                            />2000<span> with EMI payment option</span>
                             </button>
                         </div>
                     </div>

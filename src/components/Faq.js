@@ -18,7 +18,7 @@ export default function Faq() {
                     <input id="q2" type="checkbox" class="panel"/>
                     <div class="plus">+</div>
                     <label for="q2" class="panel-title"> Why choose java over other languages ?</label>
-                    <div class="panel-content">  <FontAwesomeIcon icon={faArrowRight} className="arrow"/>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium itaque similique ea libero, cum natus ipsa et veniam, incidunt exercitationem cumque impedit harum aperiam fuga nulla laborum rem aliquam eaque.</div>
+                    <div class="panel-content">  <FontAwesomeIcon icon={faArrowRight} className="arrow"/> According to many official websites that track the popularity of coding languages, Java is either #1 or in the top 3. Java programs are easy to understand, structured and less prone to errors. They are  platform-independent and portable which makes it a good choice for mobile, web and desktop applications. So, if you desire to become a software developer then it is good to start with the Java.</div>
                 </div>
                 <div class="faq-question">
                     <input id="q3" type="checkbox" class="panel"/>

@@ -31,13 +31,14 @@
 .community .community-image{
     align-self: center;
     text-align: center;
+    /* width: 1rem; */
+    text-align: center;
 }
 
-@media screen and (max-width:43.75em){
-    .community .community-image img{
-        width: 70%;
-    }
+.community .community-image img{
+    width: 100%;
 }
+
 
 .community .community-button{
     text-decoration: none;

@@ -8,13 +8,12 @@ export default function Community() {
             <h1 className="section-heading">Our Community</h1>
             <div className="community-content">
                 <div className="community-details">
-                    <p className='community-para'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur obcaecati sequi accusamus facilis asperiores autem iusto quaerat ducimus aspernatur natus vel, dolorum rerum laboriosam cumque placeat dignissimos ut cum doloremque? Provident hic dolorem temporibus eum quibusdam autem quisquam quidem sunt aspernatur, incidunt repellendus, accusantium adipisci nobis? Ipsa debitis ipsum earum?</p>
+                    <p className='community-para'>Our community consists of a good number of working professionals in a wide range of fields, who have undergone the placement process and successfully bagged good placements in various companies of repute. Our community is focused on helping each student who joins 4U Academy to meet their placement goals by tapping into the experience possessed by our network of working professionals.</p>
                 </div>
                 <div className="community-image">
                     <img src={commImage} alt="community" srcset="" />
                 </div>
             </div>
-            {/* <a href="http://" className='community-button'>Join Our Community</a> */}
         </section>
     )
 }

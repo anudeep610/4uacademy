@@ -360,10 +360,10 @@ p{
     cursor: default;
 }
 
-.course-price button:hover{
+/* .course-price button:hover{
     background-color: orange;
     color: white;
-}
+} */
 
 .course-price button .ruppe-icon{
     color: orange;
@@ -373,6 +373,11 @@ p{
 
 .course-price button span{
     font-size:1.1rem;
+}
+
+.course-price .course-start{
+    padding-top: 0;
+    padding-bottom: 1rem;
 }
 
 .register-button{
