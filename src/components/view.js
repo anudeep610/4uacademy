@@ -6,8 +6,8 @@ export default function View() {
     const [data, setData] = useState([]);
     useEffect(()=>{
         axios.get("https://backend-4uacademy.herokuapp.com/asxde").then(data=>setData(data.data))
-        console.log(data)
-    },[])
+        // console.log(data)
+    })
 
   return (
     <section className="view-page">
@@ -23,6 +23,8 @@ export default function View() {
                     <td>Branch</td>
                     <td>Year</td>
                     <td>Course</td>
+                    <td>Other languages</td>
+                    <td>Expectations</td>
                 </tr>
             </thead>
             <tbody>
@@ -37,6 +39,8 @@ export default function View() {
                             <td>{d.branch}</td>
                             <td>{d.yearOfStudy}</td>
                             <td>{d.course}</td>
+                            <td>{d.langKnow}</td>
+                            <td>{d.expectation}</td>
                         </tr>
                     })
                 }
