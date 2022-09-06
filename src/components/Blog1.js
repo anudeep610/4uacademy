@@ -1,6 +1,6 @@
 import React from 'react'
 import "./css/BlogPage.css";
-import photo from "../assets/images/akash.jpeg"
+import photo from "../assets/images/akash.webp"
 
 export default function Blog1() {
   return (

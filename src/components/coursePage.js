@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import "../components/css/coursePage.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faIndianRupee } from '@fortawesome/free-solid-svg-icons'
-import courseFeatures from "../assets/images/features.jpg";
+import courseFeatures from "../assets/images/featuresNormal.webp";
 import {HashLink} from "react-router-hash-link"
 
 function CoursePage() {

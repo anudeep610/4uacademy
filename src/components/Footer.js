@@ -1,6 +1,6 @@
 import React from 'react'
 import "./css/Footer.css";
-import logo from "../assets/images/logo_white.png";
+import logo from "../assets/images/logo_white.webp";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faCopyright, faRocket} from '@fortawesome/free-solid-svg-icons';
 import {faInstagram, faYoutube, faTelegram } from '@fortawesome/free-brands-svg-icons';
@@ -32,9 +32,9 @@ export default function Footer() {
                 </div>
                 <div className="fcontainer">
                     <h3 className='footer-conatainer-heading'>Follow us on</h3>
-                    <a className='link-name' href=' https://instagram.com/academy_4u?igshid=YmMyMTA2M2Y='> <FontAwesomeIcon icon={faInstagram} className="brands"/>Instagram</a>
-                    <a className='link-name' href='https://t.me/ForUAcademy'> <FontAwesomeIcon icon={faTelegram} className="brands"/>Telegram</a>
-                    <a className='link-name' href='https://www.youtube.com/channel/UCprP0QTP_Ado32BUpeVrFcA'> <FontAwesomeIcon icon={faYoutube} className="brands"/>Youtube</a>
+                    <a className='link-name' target="__blank" href=' https://instagram.com/academy_4u?igshid=YmMyMTA2M2Y='> <FontAwesomeIcon icon={faInstagram} className="brands"/>Instagram</a>
+                    <a className='link-name' target="__blank"  href='https://t.me/ForUAcademy'> <FontAwesomeIcon icon={faTelegram} className="brands"/>Telegram</a>
+                    <a className='link-name' target="__blank"  href='https://www.youtube.com/channel/UCprP0QTP_Ado32BUpeVrFcA'> <FontAwesomeIcon icon={faYoutube} className="brands"/>Youtube</a>
                 </div>
             </div>
             <div className="copyright"> Copyright <FontAwesomeIcon icon={faCopyright}/> 2022 4U Academy, All Rights Reserved.</div>

@@ -2,13 +2,13 @@ import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import "./css/Reviews.css";
-import img1 from "../assets/images/Shivaraj Karjagi.jpg";
-import img2 from "../assets/images/Chandana R.jpg";
-import img3 from "../assets/images/Hitesh Kumawat.jpg";
-import img4 from "../assets/images/Puttaradhya.jpg";
-import img5 from "../assets/images/usha vg.jpg";
-import img6 from "../assets/images/Nikhil J.jpg";
-import img7 from "../assets/images/Chandra kiran Kona.jpg";
+import img1 from "../assets/images/Shivaraj Karjagi.webp";
+import img2 from "../assets/images/Chandana R.webp";
+import img3 from "../assets/images/Hitesh Kumawat.webp";
+import img4 from "../assets/images/Puttaradhya.webp";
+import img5 from "../assets/images/usha vg.webp";
+import img6 from "../assets/images/Nikhil J.webp";
+import img7 from "../assets/images/Chandra kiran Kona.webp";
 
 export default function Reviews() {
     return (

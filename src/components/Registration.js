@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import "./css/Registration.css";
-import features from "../assets/images/features.png";
+import features from "../assets/images/featuresSemi.webp";
 import axios from "axios";
 import {Triangle} from "react-loader-spinner";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -110,7 +110,13 @@ export default function Registration() {
                     <Row className="mb-3">
                         <Form.Group as={Col} controlId="validationCustom01">
                             <Form.Label>Year</Form.Label>                            
-                            <Form.Control className="input" size="lg" required type="text" name="YearOfStudy" onChange={(e)=>{setStudentDetails({...studentDetails ,yearOfStudy:e.target.value})}}/>
+                            <Form.Select className="input" size="lg" required type="text" name="YearOfStudy" onChange={(e)=>{setStudentDetails({...studentDetails ,yearOfStudy:e.target.value})}}>
+                                <option hidden value=""></option>
+                                <option value="1st year">First Year</option>
+                                <option value="1st year">Second Year</option>
+                                <option value="1st year">Third Year</option>
+                                <option value="1st year">Fourth Year</option>
+                            </Form.Select>
                         </Form.Group>
                     </Row>
 

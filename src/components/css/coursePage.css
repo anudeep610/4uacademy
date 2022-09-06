@@ -4,10 +4,10 @@ p{
 }
 
 .coursepage_main-container .coursePage-banner-container{
-    background-image: url("../../assets/images/courseBanner.jpg");
+    background-image: url("../../assets/images/971.webp");
     /* background-color: aliceblue; */
     background-size: cover;
-    /* width: 100%; */
+    width: 100%;
     height: 65vh;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ p{
 }
 
 .coursePage-banner-container h2{
-    color: rgb(256, 256, 256);
+    color: white;
     font-size: 5rem;
     text-align: center;
 }

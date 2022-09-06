@@ -1,8 +1,8 @@
 import React from 'react';
 import "./css/About.css";
-import nikhil from "../assets/images/nikhil.jpg";
-import narendra from "../assets/images/narendra.jpg";
-import kushal from "../assets/images/kushal.jpg";
+import nikhil from "../assets/images/nikhil.webp";
+import narendra from "../assets/images/narendra.webp";
+import kushal from "../assets/images/kushal.webp";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
@@ -12,7 +12,7 @@ export default function About() {
         <h1 className="section-heading">About Us</h1>
         <div class="blockquote-wrapper">
           <div class="blockquote">
-            <h1> A good education is the  <span className="diff">foundation</span> for a better <span className="diff"> future .</span></h1>
+            <h1> A good education is the  <span className="diff">foundation</span> for a better <span className="diff"> future.</span></h1>
           </div>
         </div>
         <p className="about-para">4U academy is an educational organisation which ensures a complete solution for placement preparations by providing the best learning experience. Our mission is to strengthen our students in all technical aspects. </p>

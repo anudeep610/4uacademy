@@ -26,7 +26,7 @@ export default function Courses() {
                         </div>
                         <div className="course-outcomes">
                             <h6 className="course-outcomes-heading">Batch Starts On</h6>
-                            <p className="course-outcomes-content"> 13th September 2022 </p>
+                            <p className="course-outcomes-content"> 13th September</p>
                         </div>
                         <div className="course-outcomes">
                             <h6 className="course-outcomes-heading">What you'll learn?</h6>

@@ -1,5 +1,5 @@
 import React from 'react'
-import commImage from "../assets/images/community.jpg";
+import commImage from "../assets/images/community.webp";
 import "./css/Community.css";
 
 export default function Community() {
