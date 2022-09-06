@@ -5,7 +5,6 @@ import Home from "./components/Home";
 import About from "./components/About";
 import BlogOne from "./components/Blog1";
 import Registration from './components/Registration';
-import Java from './components/Java';
 import Footer from "./components/Footer";
 import View from "./components/view";
 import CoursePage from "./components/coursePage";
@@ -24,7 +23,6 @@ function App() {
         <Route path="/blog-placements" element={<BlogOne/>}/>
         <Route path={"/blog-college"} element={<BlogTwo/>}/>
         <Route path="/registration" element={<Registration/>}/>
-        <Route path="/course/java" element={<Java/>}/>
         <Route path="/efkocefo/efvee/re" element={<View/>}/>
         <Route path="/coursePage/java" element={<CoursePage/>}/>
         <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>

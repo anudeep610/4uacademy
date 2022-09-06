@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <header className='header'>
         <div className="branding">
-            <img src={logo} alt="logo" srcset="" />
+            <img src={logo} alt="logo" srcSet="" />
             <HashLink className='brand' to="/#hero">4U Academy</HashLink>
         </div>
         <div className="sections">
