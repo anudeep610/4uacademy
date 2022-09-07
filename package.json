@@ -27,7 +27,7 @@
     "heroku-prebuild": "npm install -g serve",
     "start": "serve -s build",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts start",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

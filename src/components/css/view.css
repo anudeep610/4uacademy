@@ -1,5 +1,6 @@
 .view-page{
     padding: 5rem 10rem;
+    min-height: auto;
 }
 
 thead td{
@@ -16,4 +17,10 @@ tbody td{
 
 .true{
     display: none;
+}
+
+@media screen and (max-width:30em) {
+    .view-page{
+        padding: 20rem 10rem;
+    }    
 }

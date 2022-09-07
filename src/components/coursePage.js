@@ -445,7 +445,7 @@ function CoursePage() {
                             <HashLink to="/registration#top" class="btn-1 btn--shimmer"> Register Now </HashLink>
                         </div>
                         <div className="course-price">
-                            <button className='course-start'> <span>Batch starts on</span> <br /> 13th September 2022 </button>
+                            <button className='course-start'> <span>Batch starts on</span> <br /> 15th September 2022 </button>
                             <button>
                                 <FontAwesomeIcon
                                 className='ruppe-icon'
