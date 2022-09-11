@@ -82,7 +82,7 @@ export default function Registration() {
                     <Row className="mb-3">
                         <Form.Group as={Col} controlId="validationCustom01">
                             <Form.Label>Contact Number</Form.Label>
-                            <Form.Control className="input" size="lg" required type="tel" name="contact" pattern="[6-9]{1}[0-9]{9}" onChange={(e)=>{setStudentDetails({...studentDetails ,contact:e.target.value})}}/>
+                            <Form.Control className="input" size="lg" required type="tel" name="contact" pattern="(\+91[\-\s]?)?[0]?(91)?[6789]\d{9}" onChange={(e)=>{setStudentDetails({...studentDetails ,contact:e.target.value})}}/>
                         </Form.Group>
                     </Row>
 
