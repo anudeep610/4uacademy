@@ -113,9 +113,9 @@ export default function Registration() {
                             <Form.Select className="input" size="lg" required type="text" name="YearOfStudy" onChange={(e)=>{setStudentDetails({...studentDetails ,yearOfStudy:e.target.value})}}>
                                 <option hidden value=""></option>
                                 <option value="1st year">First Year</option>
-                                <option value="1st year">Second Year</option>
-                                <option value="1st year">Third Year</option>
-                                <option value="1st year">Fourth Year</option>
+                                <option value="2nd year">Second Year</option>
+                                <option value="3rd year">Third Year</option>
+                                <option value="4th year">Fourth Year</option>
                             </Form.Select>
                         </Form.Group>
                     </Row>
