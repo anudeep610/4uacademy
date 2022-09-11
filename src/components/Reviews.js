@@ -17,7 +17,7 @@ export default function Reviews() {
             <div class="rbd-core-ui">
                 <div class="rbd-review-slider">
                     <div class="rbd-review-container">
-                    <Carousel className='carousel' autoPlay={true} showThumbs={false} interval={3500} infiniteLoop={true} showIndicators={false} showStatus={false} showArrows={true}>
+                    <Carousel className='carousel' autoPlay={true} showThumbs={false} interval={5000} infiniteLoop={true} showIndicators={false} showStatus={false} showArrows={true}>
                         <div class="rbd-review review1.1 ">
                             <h3 class="rbd-heading">Shivaraj Karjagi</h3>
                             <i class="renderSVG" data-icon="star" data-repeat="5"></i>
