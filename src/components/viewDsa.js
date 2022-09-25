@@ -2,16 +2,16 @@ import React, {useState, useEffect} from 'react'
 import axios from "axios";
 import "./css/view.css";
 
-export default function View() {
+export default function ViewDsa() {
     const [data, setData] = useState([]);
     useEffect(()=>{
-        axios.get("https://backend-4uacademy.herokuapp.com/asxde/java").then(data=>setData(data.data))
+        axios.get("https://backend-4uacademy.herokuapp.com/asxde/dsa").then(data=>setData(data.data))
         // console.log(data)
     })
 
   return (
     <section className="view-page">
-        <h3 className="section-heading">Registrations - Java</h3>
+        <h3 className="section-heading">Registrations - DSA</h3>
         <table className="table">
             <thead>
                 <tr>

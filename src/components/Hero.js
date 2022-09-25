@@ -24,7 +24,7 @@ export default function Hero() {
             </div>
         </div>
         <div className="info-box">
-                <HashLink to="/coursePage/java#top" className="info">Register to Java course</HashLink>
+                <HashLink to="/coursePage/dsa#top" className="info">Register for DSA course</HashLink>
         </div>
     </section>
   )

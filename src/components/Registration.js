@@ -5,15 +5,21 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import "./css/Registration.css";
 import features from "../assets/images/featuresSemi.webp";
+import dsaPic from "../assets/images/featuresDsa.png";
 import axios from "axios";
 import {Triangle} from "react-loader-spinner";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { useLocation } from "react-router-dom";
 
 export default function Registration() {
+    const data = useLocation();
+    const courseName = data.state.course
+    const img = data.state.image
+    console.log(courseName);
     const [validated, setValidated] = useState(false);
     const [loading, setLoading] = useState(false);
-    const [studentDetails, setStudentDetails] = useState({course:"java"});
+    const [studentDetails, setStudentDetails] = useState({course:courseName});
     const [result, setResult] = useState(false);
     const [failed, setFailed] = useState(false);
 
@@ -68,7 +74,7 @@ export default function Registration() {
         {
             (!result && !loading) && <div className={`registration-page-content ${loading}`}>
             <div className="image-container">
-                <img src={features} alt="" />
+                <img src={dsaPic} alt="features" />
             </div>
             <div className="registration-form">
                 <Form noValidate validated={validated} onSubmit={handleSubmit}>
