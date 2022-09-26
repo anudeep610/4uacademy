@@ -89,7 +89,7 @@ export default function CoursePageDSA() {
                                                 Product based companies’ interview specific problems.
                                             </li>
                                             <li>
-                                                How to solve coding questions easily and efficiently, how to make these logics & how to convert logics into programs.
+                                                How to solve coding questions easily and efficiently, how to make logics & how to convert these logics into programs.
                                             </li>
                                             <li>
                                                 How to build a resume.  
