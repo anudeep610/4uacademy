@@ -27,15 +27,15 @@ export default function Courses() {
                         </div>
                         <div className="course-outcomes">
                             <h6 className="course-outcomes-heading">Next Batch</h6>
-                            <p className="course-outcomes-content">last week of october</p>
+                            <p className="course-outcomes-content">28th November</p>
                         </div>
                         <div className="course-outcomes">
                             <h6 className="course-outcomes-heading">What you'll learn?</h6>
                             <p className="course-outcomes-content"> Java basics, coditional statements, loops, patterns, recursion, strings, arrays ,oops ,exception handling  ... and much more!!</p>
                         </div>
                         <div className="course-learn-more">
-                            {/* <HashLink className='course-link' to="/coursepage/java/#top">Explore Course &rarr;</HashLink> */}
-                            <p className='course-link'>Coming Soon</p>
+                            <HashLink className='course-link' to="/coursepage/java/#top">Explore Course &rarr;</HashLink>
+                            {/* <p className='course-link'>Coming Soon</p> */}
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,8 @@ export default function Courses() {
                             <p className="course-outcomes-content"> Complextiy Analysis, Stacks, Queues, Linked Lists, Trees, Tries, dynamic programming, greedy techniques... and much more!!</p>
                         </div>
                         <div className="course-learn-more">
-                            <HashLink className='course-link' to="/coursepage/dsa/#top">Explore Course &rarr;</HashLink>
+                            {/* <HashLink className='course-link' to="/coursepage/dsa/#top">Explore Course &rarr;</HashLink> */}
+                            <p className='course-link'>Coming Soon</p>
                         </div>
                     </div>
                 </div>

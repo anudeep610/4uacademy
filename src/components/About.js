@@ -32,16 +32,6 @@ export default function About() {
             </figcaption>
           </figure>
           <figure class="snip1515">
-            <div class="profile-image"><img src={nikhil} alt="nikhil" /></div>
-            <figcaption>
-              <h3>Nikhil Raj</h3>
-              <h4>Founder & Mentor</h4>
-              <div class="icons">
-                <a target="__blank" href=" https://www.linkedin.com/in/nikhil-raj-349265181/"> <FontAwesomeIcon className='linkedin' icon={faLinkedin}/> </a>
-              </div>
-            </figcaption>
-          </figure>
-          <figure class="snip1515">
             <div class="profile-image"><img src={kushal} alt="nikhil" /></div>
             <figcaption>
               <h3>Kushal T H</h3>

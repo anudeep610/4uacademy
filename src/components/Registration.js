@@ -74,7 +74,7 @@ export default function Registration() {
         {
             (!result && !loading) && <div className={`registration-page-content ${loading}`}>
             <div className="image-container">
-                <img src={dsaPic} alt="features" />
+                <img src={features} alt="features" />
             </div>
             <div className="registration-form">
                 <Form noValidate validated={validated} onSubmit={handleSubmit}>
