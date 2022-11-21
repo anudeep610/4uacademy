@@ -533,7 +533,7 @@ export default function CoursePageDSA() {
                             <HashLink to="/registration#top" state={{course:"dsa",image:"dsaPic"}} class="btn-1 btn--shimmer"> Register Now </HashLink>
                         </div>
                         <div className="course-price">
-                            <button className='course-start'> <span>Batch starts on</span> <br /> 30th September 2022 </button>
+                            <button className='course-start'> <span>Batch starts on</span> <br /> 5th October 2022 </button>
                             <button className='course-start'> <span>Course Duration</span> <br /> 90 days </button>
                             <button>
                                 <FontAwesomeIcon
