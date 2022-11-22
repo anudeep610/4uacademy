@@ -146,7 +146,7 @@ export default function Registration() {
         </div>
         }
         {
-            result && <div className="result-text">Your Registraion is successfull. Please do join our whatsapp group for further communication <a href="https://chat.whatsapp.com/E8FsEn7YItOKdIy3u40Y07"> <FontAwesomeIcon icon={faWhatsapp}/> WhatsApp</a> </div>
+            result && <div className="result-text">Your Registraion is successfull. Please do join our whatsapp group for further communication <a href="https://chat.whatsapp.com/DaOAwITNuwqFUkcQdnk4cM"> <FontAwesomeIcon icon={faWhatsapp}/> WhatsApp</a> </div>
         }
     </section>;
 }
